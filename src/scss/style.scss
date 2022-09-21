@@ -1,0 +1,175 @@
+@import url('normalize.css');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap');
+
+html, body {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 18px;
+    height: 100%;
+    color: #000;
+    background: hsl(210, 60%, 98%);
+    justify-content: center;
+    align-items: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px;
+    flex-basis: 375px;
+    flex-grow: 1;
+    flex-shrink: 0;
+    background: #FFF;
+    margin: 25px 0px;
+    padding: 0px 30px;
+    border-radius: 15px;
+}
+
+.notification {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    font-size: 1rem;
+    margin: 30px 0px;
+}
+
+.badge { 
+    background-color: hsl(222, 83%, 27%);
+    // background-color: hsl(219, 12%, 42%);
+    color: white;
+    padding: 2px 9px;
+    font-size: 0.75rem;
+    text-align: center;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+
+.mclear { 
+    font-size: 0.75rem;
+    color: hsl(219, 14%, 63%);
+    cursor: pointer;
+
+    &:hover {
+        color: hsl(224, 21%, 14%);
+    }
+}
+
+.nstrong {
+    flex: 0;
+    font-weight: 800;
+}
+
+.msgwindow {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content:flex-start; 
+}
+
+.notice {
+    background-color: #f6fafd;
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 5px 10px;
+    margin: 4px;
+    border-radius: 5px;
+    font-size: 14px;
+
+    .msgtxt {
+        width: 100%;
+        text-align: left;
+        padding-top: 8px;
+        line-height: 1.3rem;
+    }
+
+    .uname {
+        font-weight: 800;
+        cursor: pointer;
+
+        &:hover {
+            color: hsl(219, 76%, 28%);
+        }
+    }
+
+    .image {
+        padding: 10px;
+
+        .pfp {
+            width: 45px;
+            height: auto;
+        }
+        
+    }
+
+    .photo {
+        display: flex;
+        align-items: flex-end;
+        padding: 10px;
+
+
+        .pic {
+            width: 40px;
+            height: auto;
+            cursor: pointer;
+        }
+        
+    }    
+
+    .new {
+        height: 6px;
+        width: 6px;
+        background-color: rgb(255, 0, 0);
+        border-radius: 50%;
+        display: inline-block;
+        margin: 0px 8px;
+    }
+
+    .post {
+        color:hsl(224, 21%, 14%);
+    }
+
+    .link {
+        font-weight: bold;
+        color: hsl(219, 12%, 42%);
+        cursor: pointer;
+
+        &:hover {
+            color: hsl(224, 21%, 14%);
+        }
+    }
+
+    .time {
+        color: hsl(219, 14%, 63%);
+    }
+
+    .group {
+        cursor: pointer;
+        color: hsl(219, 76%, 28%);
+        font-weight: 800;
+    }
+
+    .private {
+        margin: 5px 0px;
+        border: hsl(205, 33%, 90%) 1px solid;
+        border-radius: 5px;
+        padding: 12px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: hsl(205, 33%, 90%);
+        }
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .app {
+        max-width: 375px;
+        font-size: 15px;
+    }
+  }
