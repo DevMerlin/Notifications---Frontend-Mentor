@@ -1,36 +1,53 @@
-# <p align="center"><a href='https://github.com/Dugnist/html5-boilerplate'><img width="200" src="http://css-live.ru/wp-content/uploads/2017/06/web1.png" alt="html5-boilerplate" /></a><br/> html5-boilerplate </p>
+# Frontend Mentor - Notifications page solution
 
-### Get started
+This is a solution to the [Notifications page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/notifications-page-DqK5QAmKbC). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-```
-  git clone https://github.com/Dugnist/html5-boilerplate.git my_project
-  cd my_project
-  npm i
-  npm start
-```
+## Table of contents
 
-### Put your files into /src folder.
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
 
-Don't forget add to index.html this line:
-```
-  <script type="text/javascript" src="../build/app.js"></script>
-```
+**Note: Delete this note and update the table of contents based on what sections you keep.**
 
-### For build
+## Overview
 
-```
-  npm run build
-```
+### The challenge
 
-### Features
+Users should be able to:
 
-- Lightweight, fast opened.
-- Webpack livereload separated config
-- Html5/Css3/JS(es6/vanilla)/images(png, jpg, gif, svg) optimization/minify.
-- Include 5 pure css media queries points and best normalize css practices.
-- Include all you needed html meta tags.
-- ES6 and browserify syntax support. (require, arrow func, let const etc...).
+- Distinguish between "unread" and "read" notifications
+- Select "Mark all as read" to toggle the visual state of the unread notifications and set the number of unread messages to zero
+- View the optimal layout for the interface depending on their device's screen size
+- See hover and focus states for all interactive elements on the page
 
-### 2020 updates
+### Screenshot
 
-- SASS support (thanks @patrikniebur)
+![Screenshot](./NotificationScreenshot.png)
+
+Notification Screenshot
+
+**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+
+### Links
+
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+
+## My process
+
+### Built with
+
+- HTML5 markup
+- SASS compiled to CSS
+- Flexbox
+
+## Author
+
+- Frontend Mentor - [@devmerlin](https://www.frontendmentor.io/profile/DevMerlin)
+
+**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
